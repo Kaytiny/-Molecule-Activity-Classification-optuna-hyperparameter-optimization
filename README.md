@@ -1,6 +1,6 @@
 # Molecule Activity Classification
 
-A machine learning project for classifying the biological activity of chemical compounds based on molecular descriptors.
+A machine learning project for classifying the biological activity of chemical compounds based on molecular descriptors.(refference:(https://www.kaggle.com/c/bioresponse/data))
 
 This repository implements a complete machine learning pipeline: data preprocessing, feature scaling, baseline model comparison (Random Forest, XGBoost), and hyperparameter optimization using Optuna.
 
