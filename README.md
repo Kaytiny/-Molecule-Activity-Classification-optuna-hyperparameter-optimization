@@ -47,6 +47,6 @@ Model performance was evaluated using **Accuracy**, **Precision**, **Recall**, a
 | :--- | :---: | :---: | :---: | :---: |
 | **RandomForestClassifier** | ~0.7816 | ~0.7886 | ~0.8157 | ~0.8019 |
 | **XGBClassifier (Baseline)** | ~0.7856 | ~0.7874 | ~0.8280 | ~0.8072 |
-| **XGBClassifier + Optuna** | **~0.8156** | — | — | — |
+| **RandomForestClassifier + Optuna*** | ~0.0.7870 | ~0.7934 |~ 0.8206| ~0.8068 |
+| **XGBClassifier + Optuna** | ~0.7923 | ~0.8099| ~0.8059| ~0.8079|
 
-*After hyperparameter optimization with Optuna, the best iteration achieved an accuracy improvement of up to **~81.56%**.*
